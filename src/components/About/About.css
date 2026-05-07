@@ -81,11 +81,11 @@
 }
 
 .team-banner-image img {
-  margin-top: 50px;
-  margin-left: 60px;
+
   width: 80%;
-  height: 70%;
-  object-fit: cover;
+  height: 80%;
+  margin-left: 50px;
+  object-fit: contain;
   transition: transform 0.6s ease;
 }
 
@@ -96,7 +96,7 @@
 .team-banner-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(27,94,32,0.8) 0%, transparent 60%);
+  background: linear-gradient(to top, rgba(27, 94, 32, 0.8) 0%, transparent 60%);
   display: flex;
   align-items: flex-end;
   padding: 28px;
@@ -185,7 +185,7 @@
 
 .vmp-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 60px rgba(0,0,0,0.12);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
 }
 
 .vmp-card::before {
@@ -246,6 +246,7 @@
   .about-highlights {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .vmp-grid {
     grid-template-columns: 1fr;
   }
@@ -255,11 +256,14 @@
   .about-team-banner {
     grid-template-columns: 1fr;
   }
+
   .team-banner-content {
     padding: 0 24px 32px;
   }
+
   .team-banner-image {
     height: 280px;
+
   }
 }
 
@@ -267,9 +271,11 @@
   .about-highlights {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .highlight-card {
     padding: 24px 16px;
   }
+
   .highlight-number {
     font-size: 2.2rem;
   }
