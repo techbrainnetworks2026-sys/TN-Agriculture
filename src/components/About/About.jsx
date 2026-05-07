@@ -4,7 +4,7 @@ const pillars = [
   {
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <circle cx="12" cy="12" r="10"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/>
+        <circle cx="12" cy="12" r="10" /><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4" />
       </svg>
     ),
     title: 'Vision',
@@ -15,7 +15,7 @@ const pillars = [
   {
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
       </svg>
     ),
     title: 'Mission',
@@ -26,7 +26,7 @@ const pillars = [
   {
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
       </svg>
     ),
     title: 'Passion',
@@ -38,8 +38,8 @@ const pillars = [
 
 const highlights = [
   { number: '480+', label: 'Innovative Products' },
-  { number: '24',   label: 'Industries Served' },
-  { number: '30+',  label: 'Countries by 2027' },
+  { number: '24', label: 'Industries Served' },
+  { number: '30+', label: 'Countries by 2027' },
   { number: '2027', label: 'Global Launch Year' },
 ];
 
@@ -94,9 +94,9 @@ export default function About() {
             <div className="founder-card">
               <div className="founder-avatar">
                 <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="30" cy="30" r="30" fill="linear-gradient(135deg, #2E7D32, #66BB6A)"/>
-                  <circle cx="30" cy="24" r="10" fill="#A5D6A7"/>
-                  <path d="M10 52C10 40 20 34 30 34C40 34 50 40 50 52" fill="#2E7D32"/>
+                  <circle cx="30" cy="30" r="30" fill="linear-gradient(135deg, #2E7D32, #66BB6A)" />
+                  <circle cx="30" cy="24" r="10" fill="#A5D6A7" />
+                  <path d="M10 52C10 40 20 34 30 34C40 34 50 40 50 52" fill="#2E7D32" />
                 </svg>
               </div>
               <div className="founder-info">
