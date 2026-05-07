@@ -18,7 +18,7 @@
 }
 
 .navbar-inner {
-  max-width: 1320px;
+
   margin: 0 auto;
   padding: 0 24px;
   height: 100%;
@@ -39,7 +39,7 @@
 .logo-icon {
   width: 42px;
   height: 42px;
-  filter: drop-shadow(0 2px 8px rgba(46,125,50,0.4));
+  filter: drop-shadow(0 2px 8px rgba(46, 125, 50, 0.4));
   transition: var(--transition);
 }
 
@@ -67,7 +67,7 @@
 
 .logo-sub {
   font-family: var(--font-heading);
-  margin-top:  8px;
+  margin-top: 8px;
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--secondary);
@@ -90,7 +90,7 @@
   font-family: var(--font-heading);
   font-size: 0.88rem;
   font-weight: 500;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
   border-radius: 8px;
   transition: var(--transition-fast);
@@ -121,7 +121,7 @@
 }
 
 .nav-link:hover {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   color: white;
 }
 
@@ -153,12 +153,12 @@
   text-decoration: none;
   flex-shrink: 0;
   transition: var(--transition);
-  box-shadow: 0 4px 16px rgba(46,125,50,0.35);
+  box-shadow: 0 4px 16px rgba(46, 125, 50, 0.35);
 }
 
 .navbar-cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(46,125,50,0.5);
+  box-shadow: 0 8px 24px rgba(46, 125, 50, 0.5);
 }
 
 /* ─── Hamburger ─────────────────────────────────────────────────────────────── */
@@ -193,10 +193,12 @@
 .hamburger.open span:nth-child(1) {
   transform: translateY(7.5px) rotate(45deg);
 }
+
 .hamburger.open span:nth-child(2) {
   opacity: 0;
   transform: scaleX(0);
 }
+
 .hamburger.open span:nth-child(3) {
   transform: translateY(-7.5px) rotate(-45deg);
 }
@@ -213,7 +215,7 @@
   -webkit-backdrop-filter: blur(24px);
   padding: 24px;
   border-top: 1px solid var(--accent-light);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   transform: translateY(-20px);
   opacity: 0;
   pointer-events: none;
@@ -267,12 +269,12 @@
   border-radius: 50px;
   text-decoration: none;
   transition: var(--transition);
-  box-shadow: 0 4px 16px rgba(46,125,50,0.35);
+  box-shadow: 0 4px 16px rgba(46, 125, 50, 0.35);
 }
 
 .mobile-cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(46,125,50,0.5);
+  box-shadow: 0 8px 24px rgba(46, 125, 50, 0.5);
 }
 
 /* ─── Responsive ─────────────────────────────────────────────────────────────── */
@@ -280,6 +282,7 @@
   .navbar-links {
     gap: 0;
   }
+
   .nav-link {
     padding: 8px 10px;
     font-size: 0.82rem;
@@ -287,6 +290,7 @@
 }
 
 @media (max-width: 880px) {
+
   .navbar-links,
   .navbar-cta {
     display: none;

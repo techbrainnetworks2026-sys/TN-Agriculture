@@ -19,7 +19,7 @@ export default function Hero() {
         ))}
       </div>
 
-      <div className="hero-content container">
+      <div className="hero-content-container">
         <div className="hero-badge">
           <span className="badge-dot" />
           Smart Agriculture Technology

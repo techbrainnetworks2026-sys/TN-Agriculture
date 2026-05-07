@@ -72,8 +72,10 @@ export default function About() {
         <div className="about-team-banner fade-in">
           <div className="team-banner-image">
             <img
-              src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=90&auto=format&fit=crop"
-              alt="Techbrain Networks Team"
+              src="/images/team-photo.png"
+              alt="Professional team at Techbrain Networks office collaborating on smart agriculture projects"
+              width="800"
+              height="533"
               loading="lazy"
             />
             <div className="team-banner-overlay">

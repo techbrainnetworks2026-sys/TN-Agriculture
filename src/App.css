@@ -3,3 +3,22 @@
   display: flex;
   flex-direction: column;
 }
+
+.section-loading-placeholder {
+  width: 100%;
+  padding: 100px 0;
+  background: var(--bg-main, #f8fafc);
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(46, 125, 50, 0.1);
+  border-left-color: #2E7D32;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

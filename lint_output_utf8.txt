@@ -1,0 +1,13 @@
+﻿
+> agriculture@0.0.0 lint
+> eslint .
+
+
+C:\Users\Techbrain2\Desktop\TB-Projects\agriculture\src\components\Products\Products.jsx
+  5:14  error  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\Techbrain2\Desktop\TB-Projects\agriculture\src\components\Services\Services.jsx
+  88:96  error  Duplicate key '--primary'  no-dupe-keys
+
+Γ£û 2 problems (2 errors, 0 warnings)
+

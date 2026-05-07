@@ -130,6 +130,7 @@
   cursor: pointer;
   transition: var(--transition);
   align-self: flex-start;
+  text-decoration: none;
 }
 
 .career-apply-btn:hover {

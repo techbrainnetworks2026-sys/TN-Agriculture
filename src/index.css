@@ -1,5 +1,7 @@
 /* ─── Global Reset & Design System ─────────────────────────────────────────── */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,51 +9,51 @@
 
 :root {
   /* Color Palette */
-  --primary:        #2E7D32;
-  --primary-dark:   #1B5E20;
-  --primary-light:  #4CAF50;
-  --secondary:      #66BB6A;
-  --accent:         #A5D6A7;
-  --accent-light:   #C8E6C9;
-  --bg:             #F5FBEF;
-  --text:           #1B5E20;
-  --text-dark:      #0D3313;
-  --text-muted:     #4A7C59;
-  --white:          #FFFFFF;
-  --earth:          #5D4037;
-  --earth-light:    #8D6E63;
-  --sky:            #B3E5FC;
-  --sky-dark:       #0288D1;
+  --primary: #2E7D32;
+  --primary-dark: #1B5E20;
+  --primary-light: #4CAF50;
+  --secondary: #66BB6A;
+  --accent: #A5D6A7;
+  --accent-light: #C8E6C9;
+  --bg: #F5FBEF;
+  --text: #1B5E20;
+  --text-dark: #0D3313;
+  --text-muted: #4A7C59;
+  --white: #FFFFFF;
+  --earth: #5D4037;
+  --earth-light: #8D6E63;
+  --sky: #B3E5FC;
+  --sky-dark: #0288D1;
 
   /* Glassmorphism */
-  --glass-bg:       rgba(255, 255, 255, 0.12);
-  --glass-border:   rgba(255, 255, 255, 0.25);
-  --glass-shadow:   0 8px 32px rgba(0, 0, 0, 0.15);
+  --glass-bg: rgba(255, 255, 255, 0.12);
+  --glass-border: rgba(255, 255, 255, 0.25);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
 
   /* Card */
-  --card-bg:        rgba(255, 255, 255, 0.95);
-  --card-shadow:    0 4px 24px rgba(46, 125, 50, 0.12);
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --card-shadow: 0 4px 24px rgba(46, 125, 50, 0.12);
   --card-hover-shadow: 0 20px 60px rgba(46, 125, 50, 0.25);
 
   /* Spacing */
-  --section-pad:    96px 24px;
+  --section-pad: 96px 24px;
 
   /* Border Radius */
-  --radius-sm:      8px;
-  --radius-md:      16px;
-  --radius-lg:      24px;
-  --radius-xl:      32px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
 
   /* Typography */
-  --font-heading:   'Poppins', sans-serif;
-  --font-body:      'Inter', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
 
   /* Transitions */
-  --transition:     all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-fast: all 0.2s ease;
 
   /* Navbar */
-  --navbar-height:  72px;
+  --navbar-height: 72px;
 }
 
 html {
@@ -68,7 +70,12 @@ body {
 }
 
 /* ─── Typography ─────────────────────────────────────────────────────────────── */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   font-weight: 700;
   line-height: 1.2;
@@ -76,12 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ─── Utilities ──────────────────────────────────────────────────────────────── */
-.container {
-  width: 100%;
-  max-width: 1320px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
+
 
 .section-badge {
   display: inline-flex;
@@ -150,12 +152,12 @@ h1, h2, h3, h4, h5, h6 {
 .btn-outline {
   background: transparent;
   color: white;
-  border: 2px solid rgba(255,255,255,0.7);
+  border: 2px solid rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px);
 }
 
 .btn-outline:hover {
-  background: rgba(255,255,255,0.15);
+  background: rgba(255, 255, 255, 0.15);
   border-color: white;
   transform: translateY(-3px);
 }
@@ -211,13 +213,16 @@ h1, h2, h3, h4, h5, h6 {
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-track {
   background: var(--bg);
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--secondary);
   border-radius: 4px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
 }
@@ -248,20 +253,43 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 @keyframes pulse-ring {
-  0% { transform: scale(1); opacity: 1; }
-  100% { transform: scale(1.8); opacity: 0; }
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
 }
 
 @keyframes slideDown {
-  from { opacity: 0; transform: translateY(-20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }

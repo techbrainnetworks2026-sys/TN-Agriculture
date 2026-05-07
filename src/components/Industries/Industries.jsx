@@ -34,14 +34,14 @@ export default function Industries() {
       <div className="industries-overlay" />
       <div className="container industries-inner">
         <div className="industries-header fade-in">
-          <span className="section-badge" style={{ background: 'rgba(165,214,167,0.2)', color: '#A5D6A7' }}>
+          <span className="section-badge" style={{ background: 'var(--bg-alt)', color: 'var(--primary)' }}>
             🏭 Industries
           </span>
-          <h2 className="section-title" style={{ color: 'white' }}>
-            Industries We <span style={{ color: '#66BB6A' }}>Serve</span>
+          <h2 className="section-title">
+            Industries We <span style={{ color: 'var(--primary)' }}>Serve</span>
           </h2>
           <div className="divider" />
-          <p className="section-subtitle" style={{ color: 'rgba(255,255,255,0.75)' }}>
+          <p className="section-subtitle">
             Techbrain Networks delivers transformative solutions across 24 diverse industries,
             driving innovation and efficiency at every level.
           </p>
