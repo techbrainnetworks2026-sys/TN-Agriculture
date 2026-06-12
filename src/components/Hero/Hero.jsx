@@ -20,10 +20,10 @@ export default function Hero() {
       </div>
 
       <div className="hero-content-container">
-        <div className="hero-badge">
+        {/* <div className="hero-badge">
           <span className="badge-dot" />
           Smart Agriculture Technology
-        </div>
+        </div> */}
 
         <h1 className="hero-heading">
           Smart Agriculture<br />
