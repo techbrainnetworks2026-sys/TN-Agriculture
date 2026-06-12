@@ -201,6 +201,7 @@
   margin-bottom: 24px;
   animation: slideDown 0.9s ease 0.15s both;
   max-width: 780px;
+  margin-top:60px ;
 }
 
 .hero-heading-accent {
