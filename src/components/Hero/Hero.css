@@ -1,12 +1,4 @@
 /* ─── Hero Section ───────────────────────────────────────────────────────────── */
-.hero {
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-}
-
 .hero-bg {
   position: absolute;
   inset: 0;
@@ -17,8 +9,19 @@
   will-change: transform;
 }
 
-.hero-content-container {
-  padding: 20px;
+.hero-content {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  padding: 20px 24px;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .hero-overlay {
@@ -201,7 +204,7 @@
   margin-bottom: 24px;
   animation: slideDown 0.9s ease 0.15s both;
   max-width: 780px;
-  margin-top:60px ;
+  margin-top:40px ;
 }
 
 .hero-heading-accent {
@@ -258,6 +261,7 @@
 
 /* ─── Actions ─────────────────────────────────────────────────────────────── */
 .hero-actions {
+  
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
@@ -334,13 +338,6 @@
 }
 
 /* ─── Responsive ─────────────────────────────────────────────────────────── */
-@media (max-width: 1400px) {
-  .hero {
-  min-height: 80vh;
-}
- 
-}
-
 @media (max-width: 768px) {
   .hero-bg {
     background-attachment: scroll;
