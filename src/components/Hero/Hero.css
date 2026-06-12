@@ -334,6 +334,17 @@
 }
 
 /* ─── Responsive ─────────────────────────────────────────────────────────── */
+@media (max-width: 1400px) {
+  .hero {
+  min-height: 80vh;
+
+}
+  .hero-content {
+    padding-top: calc(var(--navbar-height) + 60px);
+    padding-bottom: 100px;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-bg {
     background-attachment: scroll;
